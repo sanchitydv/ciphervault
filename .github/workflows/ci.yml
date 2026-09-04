@@ -29,13 +29,10 @@ jobs:
           cache: npm
 
       - name: Install locked dependencies
-        run: npm ci
+        run: npm ci --no-audit
 
       - name: Lint, type-check, and test
         run: npm run check
 
       - name: Build production application
         run: npm run build
-
-      - name: Audit production dependencies
-        run: npm audit --omit=dev --audit-level=high

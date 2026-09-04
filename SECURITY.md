@@ -38,6 +38,7 @@ All parameters and formats are versioned. Every file has a unique random key.
 
 - Serve only through HTTPS in production.
 - Keep dependencies patched and back up the database and encrypted files together.
+- GitHub Dependabot vulnerability alerts and automated security fixes are enabled for this repository.
 - Restrict `/data` to the application identity.
 - Set `TRUST_PROXY=true` only behind a trusted proxy that removes client forwarding headers.
 - Never log plaintext, passwords, cookies, vault keys, or request bodies.
