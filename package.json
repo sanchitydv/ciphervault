@@ -14,14 +14,14 @@
     "check": "npm run lint && npm run typecheck && npm run test"
   },
   "dependencies": {
-    "argon2": "^0.45.1",
-    "better-sqlite3": "^13.0.3",
+    "argon2": "^0.45.2",
+    "better-sqlite3": "^13.2.0",
     "libsodium-wrappers-sumo": "^0.8.4",
-    "lucide-react": "^1.40.0",
-    "next": "16.3.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "zod": "^4.5.4"
+    "lucide-react": "^1.74.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^9.6.0",
